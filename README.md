@@ -1,6 +1,7 @@
 **Terms and Condition to agree to if the Users Continues to use the software**
 
-https://sidumosewela.netlify.app/
+https://sidumosewela.netlify.app/  
+http://hellovaibhav.tk/siduMuseWela/
 
 This is the **Terms and Conditions for sidumosewela** that users are intended to consider when using the website.
 
