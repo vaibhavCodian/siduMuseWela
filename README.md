@@ -4,6 +4,8 @@ https://sidumosewela.netlify.app/
 
 This is the **Terms and Conditions for sidumosewela** that users are intended to consider when using the website.
 
+## User are not suppose to take any **legal action** if the there is any harm to them while using the site as they agree to the terms when starting to play the game.
+
 The website sidumosewela does not collect any user data.
 It does not mean to harm any once feelings and emotions.
 
