@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mose wela shootout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <h3>Sidu Muse Wela Shooter <span> &#9888; </span></h3>
+
+        <div class="play" onclick="play()">
+            &#9658;
+        </div>
+        <p class="terms">
+            by continuing to play the game you agree to <a href="http://">terms and conditions</a> of the game
+        </p>
+    </div>
+    <div id="gameScreen" onclick="shootSound()">
+        <div id="healthBar"></div>
+        <h2 id="score">
+            295
+        </h2>
+        <div class="enemy" id="enemy1" onclick="iShoot(this)">
+            <img src="utils/img4.png" alt="utils/img3.png" srcset="">
+        </div>
+        <div class="enemy" id="enemy2" onclick="iShoot(this)">
+            <img src="utils/img2.png" alt="utils/img5.png" srcset="">
+        </div>
+        <div class="enemy" id="enemy3" onclick="iShoot(this)">
+            <img src="utils/img6.png" alt="utils/img6.png" srcset="">
+        </div>
+    </div>
+    <div id="deadScreen">
+        <h2 id="score">295</h2>
+        <h3>
+            Muse Wela Killed You
+        </h3>
+        <div class="play" onclick="play()">
+            &#9658;
+        </div>
+        <p class="terms">
+            by continuing to play the game you agree to <a href="http://">terms and conditions</a> of the game
+        </p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
